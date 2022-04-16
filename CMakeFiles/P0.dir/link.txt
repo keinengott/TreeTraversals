@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/P0.dir/main.cpp.o  -o P0 libtree.a 

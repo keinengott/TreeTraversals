@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robertkaufman/compiler/main.cpp
+iostream
+-
+sys/stat.h
+-
+vector
+-
+fstream
+-
+sstream
+-
+tree/tree.h
+/home/robertkaufman/compiler/tree/tree.h
+tree/node.h
+/home/robertkaufman/compiler/tree/node.h
+
+/home/robertkaufman/compiler/tree/node.h
+string
+-
+vector
+-
+
+/home/robertkaufman/compiler/tree/tree.h
+node.h
+/home/robertkaufman/compiler/tree/node.h
+vector
+-
+
